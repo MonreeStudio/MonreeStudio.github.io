@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.monreeing.com/"/>
-  <updated>2020-06-10T14:38:33.150Z</updated>
+  <updated>2020-07-03T09:32:04.965Z</updated>
   <id>http://www.monreeing.com/</id>
   
   <author>
@@ -17,19 +17,41 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>notice</title>
+    <link href="http://www.monreeing.com/2020/07/03/notice/"/>
+    <id>http://www.monreeing.com/2020/07/03/notice/</id>
+    <published>2020-07-03T09:32:04.000Z</published>
+    <updated>2020-07-03T09:32:04.965Z</updated>
+    
+    <content type="html"><![CDATA[<!-- build time:Fri Jul 03 2020 17:36:12 GMT+0800 (GMT+08:00) --><!-- rebuild by neat -->]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Fri Jul 03 2020 17:36:12 GMT+0800 (GMT+08:00) --&gt;&lt;!-- rebuild by neat --&gt;
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>hello-world</title>
     <link href="http://www.monreeing.com/2020/06/01/hello-world/"/>
     <id>http://www.monreeing.com/2020/06/01/hello-world/</id>
     <published>2020-06-01T10:44:37.954Z</published>
     <updated>2020-06-10T14:38:33.150Z</updated>
     
-    <content type="html"><![CDATA[<!-- build time:Wed Jun 10 2020 22:43:37 GMT+0800 (GMT+08:00) --><h1 id="Python慕课知识积累过程"><a href="#Python慕课知识积累过程" class="headerlink" title="Python慕课知识积累过程"></a>Python慕课知识积累过程</h1><h2 id="第一周"><a href="#第一周" class="headerlink" title="第一周"></a>第一周</h2><h3 id="温度转换"><a href="#温度转换" class="headerlink" title="温度转换"></a>温度转换</h3><ul><li>了解注释</li><li>了解变量命名规则</li><li>熟悉保留字 ，如if, else等 (<a href="http://c.biancheng.net/view/4188.html" target="_blank" rel="noopener">保留字一览</a>)</li><li>熟悉基本数据类型，如整形，浮点型，字符型，布尔型</li><li>了解赋值语句，如a = 1, b = a等</li><li>熟悉if, else分支语句的使用</li><li>了解函数的概念</li><li>了解输入、输出以及评估函数</li></ul><h2 id="第二周"><a href="#第二周" class="headerlink" title="第二周"></a>第二周</h2><h3 id="蟒蛇库"><a href="#蟒蛇库" class="headerlink" title="蟒蛇库"></a>蟒蛇库</h3><ul><li>学会在程序代码开头用import保留字导入库<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> turtle</span><br><span class="line">```  </span><br><span class="line">+ 学会函数的调用方式：库名.方法名  </span><br><span class="line">```python  </span><br><span class="line">turtle.penup()</span><br><span class="line">turtle.pendown()</span><br><span class="line">```  </span><br><span class="line">+ 学会使用<span class="keyword">from</span>和<span class="keyword">import</span>关键字共同导入库或部分方法  </span><br><span class="line">```python  </span><br><span class="line"><span class="keyword">from</span> turtle <span class="keyword">import</span> 某个方法名 <span class="comment">#只导入库里的某个方法</span></span><br><span class="line"><span class="keyword">from</span> turtle <span class="keyword">import</span> * <span class="comment">#*号表示全部</span></span><br><span class="line">```  </span><br><span class="line">+ 学会使用<span class="keyword">import</span>和<span class="keyword">as</span>关键字给库名取别名，当某个库名较长时使用</span><br><span class="line">```python  </span><br><span class="line"><span class="keyword">import</span> turtle <span class="keyword">as</span> t</span><br></pre></td></tr></table></figure></li><li>学会使用for循环语句，如数据分析中读取列表中的每一项数据</li><li>学会使用range()范围函数，如指定我们要分析具体几行到几行的数据<h2 id="第三周"><a href="#第三周" class="headerlink" title="第三周"></a>第三周</h2><h3 id="基本数据类型"><a href="#基本数据类型" class="headerlink" title="基本数据类型"></a>基本数据类型</h3>这个尤为重要，后期做数据分析的时候，得明确各项数据是什么类型，方便明确使用什么库函数进行操作。<h3 id="字符串的使用"><a href="#字符串的使用" class="headerlink" title="字符串的使用"></a>字符串的使用</h3>字符串的使用也很重要，主要是应用在对文本数据的处理。<h2 id="第四周"><a href="#第四周" class="headerlink" title="第四周"></a>第四周</h2><h3 id="了解遍历"><a href="#了解遍历" class="headerlink" title="了解遍历"></a>了解遍历</h3>即依次读取集合类型数据（如列表）的每一项。<h3 id="深入理解程序的分支结构"><a href="#深入理解程序的分支结构" class="headerlink" title="深入理解程序的分支结构"></a>深入理解程序的分支结构</h3>根据不同条件进入不同的代码块，通常用于数据分析中数据过滤筛选。<br>本章会了解到一些循环的高级用法，为以后铺路。<h2 id="第五周"><a href="#第五周" class="headerlink" title="第五周"></a>第五周</h2><h3 id="自定义函数"><a href="#自定义函数" class="headerlink" title="自定义函数"></a>自定义函数</h3>前面我们知道了如何调用已有的库函数，此章将会学到如何自己根据自己的需要自定义一个函数。（做数据分析的话，还是主要以调用库函数为主。）<h2 id="第六周"><a href="#第六周" class="headerlink" title="第六周"></a>第六周</h2><h3 id="组合类型数据的应用"><a href="#组合类型数据的应用" class="headerlink" title="组合类型数据的应用"></a>组合类型数据的应用</h3></li><li>集合类型及操作</li><li>序列类型及操作</li><li>字典类型及操作<br>组合类型在数据分析的使用尤为广泛，当我们需要存取一些复杂类型的数据，组合类型就会非常方便。通常会结合循环遍历的使用。<br>==到本章就可以进行一些大部分的文本数据和数字数据的分析了，如词频统计、文本相似度计算、数据分析结果可视化、以及各种调包操作（各种我们想不到的包）。非计算机学生学到这里就差不多了。==<h2 id="第七周"><a href="#第七周" class="headerlink" title="第七周"></a>第七周</h2><h3 id="文件和数据格式化"><a href="#文件和数据格式化" class="headerlink" title="文件和数据格式化"></a>文件和数据格式化</h3>这部分主要涉及到数据的存储和读取，做数据分析的时候会用到一点点，比如从excel文件、.txt文件读取数据，或者把数据保存到excel文件、.txt文件。这部分不用学太深。<h2 id="第八周"><a href="#第八周" class="headerlink" title="第八周"></a>第八周</h2><h3 id="程序设计方法"><a href="#程序设计方法" class="headerlink" title="程序设计方法"></a>程序设计方法</h3>这部分非计算机学生也不用了解太多，主要是“编程之美”的内容。</li></ul><!-- rebuild by neat -->]]></content>
+    <content type="html"><![CDATA[<!-- build time:Fri Jul 03 2020 17:36:12 GMT+0800 (GMT+08:00) --><h1 id="Python慕课知识积累过程"><a href="#Python慕课知识积累过程" class="headerlink" title="Python慕课知识积累过程"></a>Python慕课知识积累过程</h1><h2 id="第一周"><a href="#第一周" class="headerlink" title="第一周"></a>第一周</h2><h3 id="温度转换"><a href="#温度转换" class="headerlink" title="温度转换"></a>温度转换</h3><ul><li>了解注释</li><li>了解变量命名规则</li><li>熟悉保留字 ，如if, else等 (<a href="http://c.biancheng.net/view/4188.html" target="_blank" rel="noopener">保留字一览</a>)</li><li>熟悉基本数据类型，如整形，浮点型，字符型，布尔型</li><li>了解赋值语句，如a = 1, b = a等</li><li>熟悉if, else分支语句的使用</li><li>了解函数的概念</li><li>了解输入、输出以及评估函数</li></ul><h2 id="第二周"><a href="#第二周" class="headerlink" title="第二周"></a>第二周</h2><h3 id="蟒蛇库"><a href="#蟒蛇库" class="headerlink" title="蟒蛇库"></a>蟒蛇库</h3><ul><li>学会在程序代码开头用import保留字导入库<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> turtle</span><br><span class="line">```  </span><br><span class="line">+ 学会函数的调用方式：库名.方法名  </span><br><span class="line">```python  </span><br><span class="line">turtle.penup()</span><br><span class="line">turtle.pendown()</span><br><span class="line">```  </span><br><span class="line">+ 学会使用<span class="keyword">from</span>和<span class="keyword">import</span>关键字共同导入库或部分方法  </span><br><span class="line">```python  </span><br><span class="line"><span class="keyword">from</span> turtle <span class="keyword">import</span> 某个方法名 <span class="comment">#只导入库里的某个方法</span></span><br><span class="line"><span class="keyword">from</span> turtle <span class="keyword">import</span> * <span class="comment">#*号表示全部</span></span><br><span class="line">```  </span><br><span class="line">+ 学会使用<span class="keyword">import</span>和<span class="keyword">as</span>关键字给库名取别名，当某个库名较长时使用</span><br><span class="line">```python  </span><br><span class="line"><span class="keyword">import</span> turtle <span class="keyword">as</span> t</span><br></pre></td></tr></table></figure></li><li>学会使用for循环语句，如数据分析中读取列表中的每一项数据</li><li>学会使用range()范围函数，如指定我们要分析具体几行到几行的数据<h2 id="第三周"><a href="#第三周" class="headerlink" title="第三周"></a>第三周</h2><h3 id="基本数据类型"><a href="#基本数据类型" class="headerlink" title="基本数据类型"></a>基本数据类型</h3>这个尤为重要，后期做数据分析的时候，得明确各项数据是什么类型，方便明确使用什么库函数进行操作。<h3 id="字符串的使用"><a href="#字符串的使用" class="headerlink" title="字符串的使用"></a>字符串的使用</h3>字符串的使用也很重要，主要是应用在对文本数据的处理。<h2 id="第四周"><a href="#第四周" class="headerlink" title="第四周"></a>第四周</h2><h3 id="了解遍历"><a href="#了解遍历" class="headerlink" title="了解遍历"></a>了解遍历</h3>即依次读取集合类型数据（如列表）的每一项。<h3 id="深入理解程序的分支结构"><a href="#深入理解程序的分支结构" class="headerlink" title="深入理解程序的分支结构"></a>深入理解程序的分支结构</h3>根据不同条件进入不同的代码块，通常用于数据分析中数据过滤筛选。<br>本章会了解到一些循环的高级用法，为以后铺路。<h2 id="第五周"><a href="#第五周" class="headerlink" title="第五周"></a>第五周</h2><h3 id="自定义函数"><a href="#自定义函数" class="headerlink" title="自定义函数"></a>自定义函数</h3>前面我们知道了如何调用已有的库函数，此章将会学到如何自己根据自己的需要自定义一个函数。（做数据分析的话，还是主要以调用库函数为主。）<h2 id="第六周"><a href="#第六周" class="headerlink" title="第六周"></a>第六周</h2><h3 id="组合类型数据的应用"><a href="#组合类型数据的应用" class="headerlink" title="组合类型数据的应用"></a>组合类型数据的应用</h3></li><li>集合类型及操作</li><li>序列类型及操作</li><li>字典类型及操作<br>组合类型在数据分析的使用尤为广泛，当我们需要存取一些复杂类型的数据，组合类型就会非常方便。通常会结合循环遍历的使用。<br>==到本章就可以进行一些大部分的文本数据和数字数据的分析了，如词频统计、文本相似度计算、数据分析结果可视化、以及各种调包操作（各种我们想不到的包）。非计算机学生学到这里就差不多了。==<h2 id="第七周"><a href="#第七周" class="headerlink" title="第七周"></a>第七周</h2><h3 id="文件和数据格式化"><a href="#文件和数据格式化" class="headerlink" title="文件和数据格式化"></a>文件和数据格式化</h3>这部分主要涉及到数据的存储和读取，做数据分析的时候会用到一点点，比如从excel文件、.txt文件读取数据，或者把数据保存到excel文件、.txt文件。这部分不用学太深。<h2 id="第八周"><a href="#第八周" class="headerlink" title="第八周"></a>第八周</h2><h3 id="程序设计方法"><a href="#程序设计方法" class="headerlink" title="程序设计方法"></a>程序设计方法</h3>这部分非计算机学生也不用了解太多，主要是“编程之美”的内容。</li></ul><!-- rebuild by neat -->]]></content>
     
     <summary type="html">
     
       
       
-        &lt;!-- build time:Wed Jun 10 2020 22:43:37 GMT+0800 (GMT+08:00) --&gt;&lt;h1 id=&quot;Python慕课知识积累过程&quot;&gt;&lt;a href=&quot;#Python慕课知识积累过程&quot; class=&quot;headerlink&quot; title=
+        &lt;!-- build time:Fri Jul 03 2020 17:36:12 GMT+0800 (GMT+08:00) --&gt;&lt;h1 id=&quot;Python慕课知识积累过程&quot;&gt;&lt;a href=&quot;#Python慕课知识积累过程&quot; class=&quot;headerlink&quot; title=
       
     
     </summary>
